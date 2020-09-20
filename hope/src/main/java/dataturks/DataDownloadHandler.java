@@ -14,7 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import dataturks.response.UploadResponse;
-import netscape.javascript.JSObject;
+//import netscape.javascript.JSObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,7 +24,7 @@ import java.util.*;
 public class DataDownloadHandler {
     private static JsonStringEncoder e = JsonStringEncoder.getInstance();
 
-    private static final Logger LOG = LoggerFactory.getLogger(DataDownloadHandler.class);
+    //private static final Logger LOG = LoggerFactory.getLogger(DataDownloadHandler.class);
 
     public static String handlePOSTagging(DReqObj reqObj, DProjects project, DTypes.File_Download_Type downloadType,  DTypes.File_Download_Format format) {
         return handlePOSTypes(reqObj, project, downloadType, format);
